@@ -55,7 +55,7 @@ def onclick(event):
                 
                 #clicked_time = start_time + datetime.timedelta(seconds=x_ratio * time_range)
                 clicked_day = math.floor(1 + x_ratio * days_range)
-                clicked_value = round(y_min + y_ratio * (y_max - y_min) ,1)
+                clicked_value = round(y_min + y_ratio * (y_max - y_min))
                 
                 
                 # print(f'Clicked on {name} graph: Time: {clicked_time}, Value: {clicked_value}')
